@@ -1,7 +1,6 @@
 import Header from './Header';
 import Tasks from './Tasks';
 import  {useState} from 'react'
-import { FaCoins } from 'react-icons/fa';
 import AddTask from './AddTask';
 
 const TimeTracker = () => {
