@@ -8,3 +8,6 @@ steps:
 # Deploy
 - name: 'gcr.io/$PROJECT_ID/firebase'
   args: ['deploy']
+
+options:
+  logging: build.logs_bucket
